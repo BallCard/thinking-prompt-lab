@@ -1,0 +1,12 @@
+# 本地材料，不入库
+insights/
+notes/
+*.local.md
+
+# 系统与编辑器
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.swp
