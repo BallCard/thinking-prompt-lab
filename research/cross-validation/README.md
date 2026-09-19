@@ -14,4 +14,12 @@
 | 6 | AI 对话行为与使用者认知 | [`06-ai-dialogue-effects.md`](./06-ai-dialogue-effects.md) | 11.7 KB |
 | 7 | 伪科学黑名单（跨域核查） | [`07-debunked-practices.md`](./07-debunked-practices.md) | 12.6 KB |
 
-> 生成物：修改请改 `prompts/50-design-research.md`、`research/0*.md`、`docs/clause-decisions.md` 后重新生成。
+## 送检结果
+
+| 文件 | 内容 |
+| --- | --- |
+| [`result.md`](./result.md) | 七份核查报告的返回结果，按流域顺序拼接；已剔除会过期的第三方附件签名链接，其余来源链接保留 |
+
+据此产生的条款修正见 [`../../docs/clause-decisions.md`](../../docs/clause-decisions.md) 第五节，逐条改动理由见 [`../../docs/design-notes.md`](../../docs/design-notes.md) 的迭代记录。
+
+> 上面 7 份是生成物：修改请改 `prompts/50-design-research.md`、`research/0*.md`、`docs/clause-decisions.md` 后重新生成。
