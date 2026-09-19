@@ -18,6 +18,7 @@
 | [`prompts/20-life-planning.md`](./prompts/20-life-planning.md) | 人生规划：约束条件 → 命题化 → 可逆实验 | 方向选择、取舍、自我怀疑卡住时 |
 | [`prompts/30-knowledge-map.md`](./prompts/30-knowledge-map.md) | 知识地图：把陌生领域压成能用于判断的最小集 | 遇到不懂的概念、需要跨学科背景 |
 | [`prompts/40-deep-research.md`](./prompts/40-deep-research.md) | 深度检索：检索式生成 + 来源分级 + 证据表（AI 搜索提示词） | 需要外部事实与数据，且要求可核查 |
+| [`prompts/50-design-research.md`](./prompts/50-design-research.md) | **元层**：检索“怎样设计促进思考的流程”，输出方法→证据→条款映射 | 想升级本工具箱，或不确定某个提示词条款该不该留 |
 | [`docs/methodology-catalog.md`](./docs/methodology-catalog.md) | 十种分析方法：各自回答什么问题、局限在哪 | 分析卡住时换视角 |
 | [`docs/depth-boundary.md`](./docs/depth-boundary.md) | 认知深度分档、时间盒、危险信号 | 判断"想到什么程度就够了" |
 | [`docs/evidence-standards.md`](./docs/evidence-standards.md) | 来源分级、数据陷阱、话术识别 | 核查证据、识别可疑说法 |
@@ -35,6 +36,9 @@
 
 **3. 需要外部证据时**
 先用 `40-deep-research.md` 取证，拿到证据表后回到社会议题或人生规划模块做分析。不要跳过取证直接用 A/B 模块谈事实。
+
+**4. 想升级这套工具箱时**
+用 `50-design-research.md`（元层）。它检索的是“怎样设计促进思考的流程”这类方法论（苏格拉底式提问、论证图、premortem、校准训练、跨学科知识组织、AI 迎合机制等），最终产出“方法 → 证据强度 → 可直接写进提示词的条款”映射表。**先拿到映射再改提示词**，不要凭感觉加条款。
 
 ## 使用顺序建议
 
@@ -61,5 +65,6 @@
 ## 迭代计划
 
 - [ ] 用 3 个真实问题检验各模块，记录哪些约束真正改变了输出
+- [ ] 跑一次 `prompts/50-design-research.md`，把证据强弱结论回写到各模块条款（预期会删掉几条无效条款）
 - [ ] 补 1–2 个示例（脱敏后），展示同一问题的 L1 与 L2 输出差异
 - [ ] 观察长对话中的约束衰减，必要时增加"每 5 轮重申纪律"的机制
